@@ -19,12 +19,13 @@ BudgetBasket_ATMEGA_V1.ino
 BudgetBasket_ESP_V1.ino
 
 SETUP:
+
 	1. Hardware Assembly
 	- Connect the MFRC522 to the Arduino using SPI pins.
 	- Attach the I2C LCD Display to the corresponding I2C pins on the Arduino.
 	- Integrate the ESP8266 by connecting it through the designated serial pins on the Arduino.
 	- Ensure all components are powered appropriately, adhering to their voltage requirements.
-
+ 
 	2. Software Configuration
 	- Upload the BudgetBasket_ATMEGA_V1.ino to your Arduino board.
 	- Upload the BudgetBasket_ESP_V1.ino to the ESP8266 module.
