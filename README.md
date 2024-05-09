@@ -15,8 +15,8 @@ COMPONENTS:
 - Passive Buzzer: Provides auditory feedback during operations.
 
 FILES:
-BudgetBasket_ATMEGA_V1.ino
-BudgetBasket_ESP_V1.ino
+<br>BudgetBasket_ATMEGA_V1.ino
+<br>BudgetBasket_ESP_V1.ino
 
 SETUP:
 
