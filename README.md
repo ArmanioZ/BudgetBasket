@@ -47,16 +47,16 @@ PIN SETUP:
 	SCK   - PIN 52 (SCK)
  	MOSI  - PIN 51 (MOSI)
   	MISO  - PIN 50 (MISO)
-   	RST   - PIN  8
+	RST   - PIN  8
 
-     	* Multicolor RGB LED *
+     * Multicolor RGB LED *
 	RED   - PIN 12 (PWM)
  	GREEN - PIN 11 (PWM)
   	BLUE  - PIN 10 (PWM)
 
-    	* I2C LCD 16x2 display*
-     	SDA   - PIN 20 (SDA)
-      	SCL   - PIN 21 (SCL)
+    * I2C LCD 16x2 display*
+     SDA   - PIN 20 (SDA)
+      SCL   - PIN 21 (SCL)
 
        * ESP8266 nodeMCU module *
        RX    - PIN 18 (TX1)
