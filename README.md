@@ -40,6 +40,33 @@ USAGE:
 - Removing Items: Use the push button to remove the last scanned item.
 - Viewing Receipts: Access the provided URL on any device connected to the same Wi-Fi network to see detailed receipts and budget information.
 
+PIN SETUP:
+RFID:
+	SDA   - PIN  9 
+	SCK   - PIN 52 (SCK)
+	MOSI  - PIN 51 (MOSI)
+	MISO  - PIN 50 (MISO)
+	RST   - PIN  8
+
+LED:
+	RED   - PIN 12 (PWM)
+	GREEN - PIN 11 (PWM)
+	BLUE  - PIN 10 (PWM)
+
+LCD:
+	SDA   - PIN 20 (SDA)
+	SCL   - PIN 21 (SCL)
+
+ESP8266:
+	RX    - PIN 18 (TX1)
+	TX    - PIN 19 (RX1)
+
+BUZZER:
+	OUTPUT - PIN 49 (PWM)
+
+BUTTON:
+	INPUT - PIN 48
+
 FUTURE ENHANCEMENTS
 - Implement a more dynamic web interface with the ability to handle multiple sessions simultaneously.
 - Expand the database of items to increase the versatility of the system.
